@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-sccale=1">
     <link rel="stylesheet" href="style.css" />
     <title>My Personal Website</title>
   </head>
   <body>
     <h1 class="Introduction">My Name is Mark and It is a pleasure to meet all of you! Welcome!</h1>
     <img src="./Pictures/20211106_224522.jpg" alt="Me and My Girlfriend!">
-    <h2><button onclick="clickMe()">Click Me!</button></h2>
+    <h2 class="clicking"><button onclick="clickMe()">Click Me!</button></h2>
     <h2 class = countNumbers><button onclick="countNumbers()">CountingNumbersTo10!</button></h2>
     <script src="script.js"></script>
+    <h3  id="orderedandunorderedlist">Making a Ordered and Unorder Lists!</h3>
+        <ul class="unorderedlist">
+          <li>Apple</li>
+          <li>Juice</li>
+          <li>No Numbers on this list, Just Dots!</li>
+        </ul>
+        <ol>
+          <li>Ordered Lists Time!</li>
+          <li>This is coool</li>
+          <li>Amazing</li>
+        </ol>
+      <h1 class="TimetoCreateTable">Time to create a Table!</h1>
+    <Table border="1" cellpadding="5" class="Randomtable">
+        <tr>
+            <th>Month</th>
+            <th>Rent</th>
+            <th>Utilities</th>
+            <th>Entertainment</th>
+        </tr>
+        <tr>
+          <td>August</td>
+          <td>1500</td>
+          <td>200</td>
+          <td>900</td>
+        </tr>
+    </Table>
   </body>
 </html>
